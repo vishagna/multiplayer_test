@@ -1,0 +1,31 @@
+component _0f429c4d79d752e4b871ff4ac54d7195_6406197125838560107 [id "18"]
+  enabled Bool [bits "1"]
+
+component _5e0c0b0b1e0d32b40bf8ad9c0e90a191_2425740125003343674 [id "19"]
+  IsWave Bool [bits "1"]
+  IsRun Bool [bits "1"]
+  IsWalk Bool [bits "1"]
+  IsIdle Bool [bits "1"]
+
+component _5e0c0b0b1e0d32b40bf8ad9c0e90a191_2630557354540798005 [id "20"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+  position Vector3 [sim-frames "true", compression "None"]
+
+component _5e0c0b0b1e0d32b40bf8ad9c0e90a191_3447004284609024788 [id "21"]
+  characterModel Entity [bits "20", client-type "Transform"]
+  Hp Int [bits "32", range-min "-2147483648", range-max "2147483647"]
+  Atk Int [bits "32", range-min "-2147483648", range-max "2147483647"]
+  CharIndex Int [bits "32", range-min "-2147483648", range-max "2147483647"]
+  PlayerName String [bits "6"]
+  IsDead Bool [bits "1"]
+  characterName String [bits "6"]
+
+command _0f429c4d79d752e4b871ff4ac54d7195_1c72a3c3f7e747e8b4df0063055415ec [id "6", routing "All"]
+  message String 
+
+command _0f429c4d79d752e4b871ff4ac54d7195_bacae035c0a74634ab33380502abaf8f [id "7", routing "All"]
+  message String 
+
+command _5e0c0b0b1e0d32b40bf8ad9c0e90a191_1ea5d8f6098c4dfaad786d504306699c [id "8", routing "All"]
+  hp Int 
+

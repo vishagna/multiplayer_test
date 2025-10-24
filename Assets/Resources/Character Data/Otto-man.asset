@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2cf24b55955c846abc480d549da779, type: 3}
+  m_Name: Otto-man
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  characterName: Otto-man
+  health: 150
+  attackPower: 15
+  characterMesh: {fileID: 5139570391112233068, guid: 747869c6557e3714c804c4355b044e9e, type: 3}
+  characterMaterial: {fileID: 2100000, guid: 49e897dae1818784ca3a53274beef6d3, type: 2}
